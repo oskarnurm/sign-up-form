@@ -1,0 +1,21 @@
+@import "node_modules/modern-normalize/modern-normalize.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 400px;
+}
+
+.name label,
+.contact label,
+.passwrod label {
+  display: block;
+}

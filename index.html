@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign-up Form</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="logo">ODIN</div>
+    <div class="form">
+      <form action="action_page.php">
+        <div class="container">
+          <h2>Let's do this!</h2>
+          <div class="name">
+            <label for="first_name">FIRST NAME</label>
+            <input type="text" id="first_name" name="first_name">
+            <label for="last_name">LAST NAME</label>
+            <input type="text" id="last_name" name="last_name">
+          </div>
+          <div class="contact">
+            <label for="email">EMAIL</label>
+            <input type="text" name="email" id="email" required>
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" name="phone" id="phone" required>
+          </div>
+          <div class="passwrod">
+            <label for="psw">PASSWORD</label>
+            <input type="password" name="psw" id="psw" required>
+            <label for="psw-confrim">CONFIRM PASSWORD</label>
+            <input type="password" name="psw-confirm" id="psw-confirm" required>
+          </div>
+          <button type="submit" class="registerbtn">Create Account</button>
+        </div>
+        <div class="container signin">
+          <p>Already have an account? <a href="#">Log in</a>.</p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
