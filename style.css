@@ -8,7 +8,7 @@
   src: url("./assets/InterVariable.ttf") format("truetype-variations");
 }
 
-/* Some default resets */
+/* Sensible resets */
 /* box-sizing: border-box; makes width and height include padding and border, easier for layouts. */
 * {
   margin: 0;
@@ -102,6 +102,10 @@ body {
   padding-top: 10px;
   padding-bottom: 20px;
   padding-left: 50px;
+}
+
+fieldset {
+  border: none;
   box-shadow:
     0 -4px 6px -4px rgba(0, 0, 0, 0.2),
     0 4px 6px -4px rgba(0, 0, 0, 0.2);
