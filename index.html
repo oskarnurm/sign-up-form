@@ -7,47 +7,49 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="hero">
+    <aside class="hero">
       <img src="./assets/fern.jpg" alt="Fern" class="bg-image" />
       <div class="banner">
         <img src="./assets/odin-lined.png" alt="Odin Logo" class="logo-image" />
         <h1>ODIN</h1>
       </div>
-      <div class="credit">
+      <figcaption class="credit">
         Photo by
         <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
         <a href="https://unsplash.com/">Unsplash</a>
-      </div>
-    </div>
-    <div class="form-panel">
-      <div class="intro">
-        This is not a real online service! You know you need something like this
-        in your life to help you realize your deepest dreams.<br />
-        Sign up <em>now</em> to get started.<br />
+      </figcaption>
+    </aside>
+    <main class="form-panel">
+      <section class="intro">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up <em>now</em> to get started.</p>
         <br />
-        You <em>know</em> you want to.
-      </div>
+        <p>You <em>know</em> you want to.</p>
+      </section>
       <form action="#" method="get" class="form">
-        <section class="inputs">
+        <fieldset class="inputs">
           <h1>Let's do this!</h1>
           <div class="fields">
-            <div class="field">
+            <div>
               <label for="fname">FIRST NAME</label>
               <input type="text" id="fname" name="fname" required />
             </div>
-            <div class="field">
+            <div>
               <label for="lname">LAST NAME</label>
               <input type="text" id="lname" name="lname" required />
             </div>
-            <div class="field">
+            <div>
               <label for="email">EMAIL</label>
               <input type="email" id="email" name="emal" required />
             </div>
-            <div class="field">
+            <div>
               <label for="tel">PHONE NUMBER</label>
               <input type="tel" id="tel" name="tel" required />
             </div>
-            <div class="field">
+            <div>
               <label for="password">PASSWORD</label>
               <input
                 type="password"
@@ -58,7 +60,7 @@
                 required
               />
             </div>
-            <div class="field">
+            <div>
               <label for="pw-confrim">CONFIRM PASSWORD</label>
               <input
                 type="password"
@@ -70,10 +72,10 @@
               />
             </div>
           </div>
-        </section>
+        </fieldset>
         <button type="submit">Create Account</button>
       </form>
-      <div class="login">Already have an account? <a href="#">Log in</a></div>
-    </div>
+      <p class="login">Already have an account? <a href="#">Log in</a></p>
+    </main>
   </body>
 </html>
